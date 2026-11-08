@@ -1,4 +1,4 @@
-# Bài tập Java 1–3
+# Bài tập Java 1–4
 
 Các bài tập Java cơ bản về lớp và đối tượng, hình học, mảng số nguyên.
 
@@ -11,17 +11,20 @@ Các bài tập Java cơ bản về lớp và đối tượng, hình học, mả
 Mở Terminal tại thư mục này rồi chạy:
 
 ```powershell
-javac -encoding UTF-8 *.java
+javac -encoding UTF-8 -d out *.java Buoi4/*.java
 ```
 
 ## Chạy từng bài
 
 ```powershell
-java Bai1
-java Bai2
-java Bai3_1_TongMang
-java Bai3_2_CongHaiMang
-java Bai3_3_NhapChuoi
+java -cp out Bai1
+java -cp out Bai2
+java -cp out Bai3_1_TongMang
+java -cp out Bai3_2_CongHaiMang
+java -cp out Bai3_3_NhapChuoi
+java -cp out Buoi4
 ```
 
 `Bai1`, `Bai3_1_TongMang`, `Bai3_2_CongHaiMang` và `Bai3_3_NhapChuoi` yêu cầu nhập dữ liệu theo hướng dẫn trên màn hình. `Bai2` in kết quả của hai tam giác, hai hình chữ nhật và hai hình tròn đã khởi tạo sẵn.
+
+`Buoi4` xây dựng lớp `Nguoi`, lớp `NhanVien` kế thừa từ `Nguoi`, tính lương nhân viên và in danh sách theo lương giảm dần.
