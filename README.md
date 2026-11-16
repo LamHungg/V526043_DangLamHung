@@ -1,4 +1,4 @@
-# Bài tập Java 1–4
+# Bài tập Java 1–5
 
 Các bài tập Java cơ bản về lớp và đối tượng, hình học, mảng số nguyên.
 
@@ -11,7 +11,7 @@ Các bài tập Java cơ bản về lớp và đối tượng, hình học, mả
 Mở Terminal tại thư mục này rồi chạy:
 
 ```powershell
-javac -encoding UTF-8 -d out *.java Buoi4/*.java
+javac -encoding UTF-8 -d out *.java Buoi4/*.java Buoi5/*.java
 ```
 
 ## Chạy từng bài
@@ -24,6 +24,7 @@ java -cp out Bai3_2_CongHaiMang
 java -cp out Bai3_3_NhapChuoi
 java -cp out Buoi4
 java -cp out Bai2_Diem2D3D
+java -cp out Buoi5
 ```
 
 `Bai1`, `Bai3_1_TongMang`, `Bai3_2_CongHaiMang` và `Bai3_3_NhapChuoi` yêu cầu nhập dữ liệu theo hướng dẫn trên màn hình. `Bai2` in kết quả của hai tam giác, hai hình chữ nhật và hai hình tròn đã khởi tạo sẵn.
@@ -31,3 +32,5 @@ java -cp out Bai2_Diem2D3D
 `Buoi4` xây dựng lớp `Nguoi`, lớp `NhanVien` kế thừa từ `Nguoi`, tính lương nhân viên và in danh sách theo lương giảm dần.
 
 `Bai2_Diem2D3D` minh họa lớp điểm 3D kế thừa điểm 2D, tính khoảng cách theo từng chiều, lấy điểm đối xứng qua gốc tọa độ và tịnh tiến điểm. Tổng khoảng cách được tính trên mọi cặp điểm cùng loại.
+
+`Buoi5` quản lý danh sách ngẫu nhiên các hình `Point`, `Circle`, `Line`, `Triangle` và `Rectangle` qua interface `Shape`. Chương trình tính tổng diện tích, chu vi, khoảng cách giữa tâm/trọng tâm, tìm hình có diện tích lớn nhất/nhỏ nhất và cho phép phóng to danh sách theo tỉ lệ nhập vào. Điểm và đoạn thẳng có diện tích bằng 0; chu vi của đoạn thẳng được tính bằng độ dài đoạn.
